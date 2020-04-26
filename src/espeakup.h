@@ -28,8 +28,8 @@
 
 #include "queue.h"
 
-#define PACKAGE_VERSION "0.81"
-#define PACKAGE_BUGREPORT "http://github.com/williamh/espeakup/issues"
+#define PACKAGE_VERSION "0.82"
+#define PACKAGE_BUGREPORT "https://github.com/alex19EP/espeakup/issues"
 
 enum espeakup_mode_t {
 	ESPEAKUP_MODE_SPEAKUP,
