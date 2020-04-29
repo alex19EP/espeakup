@@ -8,7 +8,7 @@ WARNFLAGS = -Wall -Wpedantic \
 
 CFLAGS += ${DEPFLAGS} ${WARNFLAGS}
 
-LDLIBS = -lespeak-ng -lpthread
+LDLIBS = -lespeak-ng -lpthread -lasound -lm
 
 INSTALL = install
 BINMODE = 0755
