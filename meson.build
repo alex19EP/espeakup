@@ -11,6 +11,7 @@ m_dep = cc.find_library('m', required : false)
 
 subdir('src')
 subdir('doc')
+subdir('autostart')
 
 executable('espeakup',
            espeakup_sources,
