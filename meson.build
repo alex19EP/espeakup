@@ -1,5 +1,5 @@
 project('espeakup', 'c',
-  version : '0.82',
+  version : '0.81',
   license : 'GPL-3.0+',
   default_options : ['buildtype=debugoptimized', 'c_std=gnu11', 'warning_level=3'])
 
