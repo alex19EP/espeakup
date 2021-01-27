@@ -19,5 +19,6 @@ install_data(service_file,
 )
 
 install_data('espeakup.conf',
-    install_dir : join_paths(sysconfdir, 'conf.d')
+    rename : 'espeakup',
+    install_dir : join_paths(sysconfdir, 'default')
 )
